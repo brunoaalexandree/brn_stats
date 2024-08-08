@@ -38,4 +38,8 @@ pvp
 Em caso de querer editar ou modificar algo do script, o código atual se encontra dentro do client.lua e a parte da NUI dentro de html, o projeto a NUI foi feito em React, com isso lembre sempre de dar o build ao realizar alguma modificação.
 
 
+## Melhorias
+- Adicionar uma área para colocar os danos a parte da tabela de estatísticas da partida
+- Alterar o código do LOADOUT (a arma) usada para o nome da arma em sí
+
 Isso é tudo, pessoal 🩷
