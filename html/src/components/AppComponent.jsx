@@ -125,7 +125,7 @@ const AppComponent = () => {
               <tr className="">
                 <th className="w-[70px]"></th>
                 <th className="w-[280px] text-white font-medium text-[12px] py-[8px]">Ped ID</th>
-                <th className="w-[236px] text-white font-medium text-[12px] py-[8px]">Kills</th>
+                <th className="w-[236px] text-white font-medium text-[12px] py-[8px]">K/D/A</th>
                 <th className="text-white font-medium text-[12px] py-[8px]">Head Damage</th>
                 <th className="text-white font-medium text-[12px] py-[8px]">Left Arm Damage</th>
                 <th className="text-white font-medium text-[12px] py-[8px]">Right Arm Damage</th>
@@ -146,7 +146,7 @@ const AppComponent = () => {
                     {ped.id}
                   </td>
                   <td className="w-[236px] text-center text-white text-[14px] bg-red-400/30">
-                    {ped.kills}
+                    0 / {ped.kills} / 0
                   </td>
                   <td className="text-center text-white text-[14px]">{ped.bodyDamage.head}</td>
                   <td className="text-center text-white text-[14px] bg-red-400/30">{ped.bodyDamage.leftArm}</td>
